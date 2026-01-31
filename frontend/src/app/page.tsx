@@ -10,7 +10,7 @@ const HomePage = () => {
     <div className="bg-[#302E2B] min-h-screen text-white flex flex-col items-center">
       <Header />
 
-      <section className="min-h-[calc(100vh-4rem)] grid grid-cols-1 md:grid-cols-2 items-center max-w-7xl w-full px-4">
+      <section className="sm:min-h-[calc(100vh-4rem)] mb-8 sm:mb-0 grid grid-cols-1 md:grid-cols-2 items-center max-w-7xl w-full px-4">
         <div className="flex justify-center">
           <img
             src="/chessboard-animation.gif"
@@ -18,7 +18,7 @@ const HomePage = () => {
             className="w-full max-w-lg md:max-w-xl"
           />
         </div>
-        <article className="flex flex-col space-y-8 sm:space-y-10 w-full max-w-lg mx-auto text-center">
+        <article className="flex flex-col space-y-8 sm:space-y-10 w-full max-w-lg mx-auto text-center sm:mt-0 mt-10">
           <h1 className="text-4xl sm:text-5xl font-extrabold flex flex-col gap-3 sm:gap-5 items-center font-poppins">
             Play Chess Online
             <span className="text-xl font-semibold sm:font-extrabold sm:text-4xl text-[#E0E0DF] w-full max-w-sm font-inter">
