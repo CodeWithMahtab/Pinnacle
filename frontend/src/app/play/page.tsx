@@ -16,13 +16,13 @@ const Play = () => {
   } = useGame();
 
   return (
-    <div className="bg-[#302E2B] min-h-screen text-white flex flex-col items-center">
+    <div className="bg-[#302E2B] min-h-screen text-white flex flex-col items-center sm:pt-0 pt-5">
       <section
         className="
           grid grid-cols-1 lg:grid-cols-2 
           items-center 
-          max-w-7xl w-full 
-          px-4 mt-14
+          w-full 
+           mt-14
           gap-8 lg:gap-0
           lg:ml-20
         "

@@ -73,7 +73,7 @@ const ChessBoard = ({ fen, color, socket, isPlaying }: ChessBoardProps) => {
       <div
         className="aspect-square"
         style={{
-          width: "min(90vw, 90vh, 608px)", // 🔥 magic line
+          width: "min(99vw, 99vh, 608px)", // 🔥 magic line
         }}
       >
         <div className="grid grid-rows-8 grid-cols-8 w-full h-full border-4 border-[#312E2B] bg-[#d5d6bc] rounded-lg shadow-2xl overflow-hidden">
