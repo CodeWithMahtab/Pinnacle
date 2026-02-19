@@ -14,7 +14,7 @@ const Header = () => {
         {/* Left: Logo */}
         <div className="flex items-center">
           <Image
-            src="/chessLogo.png"
+            src="/chessLogo1.png"
             alt="Chess Logo"
             width={150}
             height={48}
